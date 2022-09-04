@@ -1,0 +1,3 @@
+﻿  SingleLinkedList.cpp
+C:\Users\sa'ad\Desktop\SingleLinkedList\SingleLinkedList\SingleLinkedList.cpp(546): warning C4717: 'LinkedList::max': recursive on all control paths, function will cause runtime stack overflow
+  SingleLinkedList.vcxproj -> C:\Users\sa'ad\Desktop\SingleLinkedList\Debug\SingleLinkedList.exe
