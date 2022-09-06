@@ -1,0 +1,3 @@
+﻿  DoublyLinkedList.cpp
+C:\Users\sa'ad\Desktop\DoublyLinkedList\DoublyLinkedList\DoublyLinkedList.cpp(273): warning C4715: 'LinkedList::delete_and_link': not all control paths return a value
+  DoublyLinkedList.vcxproj -> C:\Users\sa'ad\Desktop\DoublyLinkedList\Debug\DoublyLinkedList.exe
