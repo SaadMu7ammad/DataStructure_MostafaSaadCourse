@@ -1,0 +1,16 @@
+﻿  Stack.cpp
+C:\Users\sa'ad\Desktop\Stack\Stack\stack3.h(28,16): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\sa'ad\Desktop\Stack\Stack\stack3.h(33,17): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\sa'ad\Desktop\Stack\Stack\stack3.h(38,17): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\sa'ad\Desktop\Stack\Stack\Stack.cpp(38,9): warning C4806: '!=': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+C:\Users\sa'ad\Desktop\Stack\Stack\Stack.cpp(149,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\Stack\Stack\Stack.cpp(182,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\Stack\Stack\Stack.cpp(214,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\Stack\Stack\Stack.cpp(266,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\Stack\Stack\Stack.cpp(307,23): warning C4018: '<': signed/unsigned mismatch
+  stack3.cpp
+C:\Users\sa'ad\Desktop\Stack\Stack\stack3.h(28,16): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\sa'ad\Desktop\Stack\Stack\stack3.h(33,17): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\sa'ad\Desktop\Stack\Stack\stack3.h(38,17): warning C4390: ';': empty controlled statement found; is this the intent?
+  Generating Code...
+  Stack.vcxproj -> C:\Users\sa'ad\Desktop\Stack\Debug\Stack.exe
