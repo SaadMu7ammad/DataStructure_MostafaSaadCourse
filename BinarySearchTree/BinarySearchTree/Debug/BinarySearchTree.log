@@ -1,0 +1,8 @@
+﻿  BinarySearchTree.cpp
+C:\Users\sa'ad\Desktop\BinarySearchTree\BinarySearchTree\BinarySearchTree.cpp(123,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\BinarySearchTree\BinarySearchTree\BinarySearchTree.cpp(533,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\BinarySearchTree\BinarySearchTree\BinarySearchTree.cpp(138): warning C4715: 'BinarySearchTree::is_bst2': not all control paths return a value
+C:\Users\sa'ad\Desktop\BinarySearchTree\BinarySearchTree\BinarySearchTree.cpp(148): warning C4715: 'BinarySearchTree::is_bst3': not all control paths return a value
+C:\Users\sa'ad\Desktop\BinarySearchTree\BinarySearchTree\BinarySearchTree.cpp(255): warning C4715: 'BinarySearchTree::successor': not all control paths return a value
+C:\Users\sa'ad\Desktop\BinarySearchTree\BinarySearchTree\BinarySearchTree.cpp(339): warning C4715: 'BinarySearchTree::predecessor': not all control paths return a value
+  BinarySearchTree.vcxproj -> C:\Users\sa'ad\Desktop\BinarySearchTree\Debug\BinarySearchTree.exe
