@@ -1,0 +1,5 @@
+﻿  MaxBinaryHeap.cpp
+C:\Users\sa'ad\Desktop\MaxBinaryHeap\MaxBinaryHeap\MaxBinaryHeap.cpp(22,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sa'ad\Desktop\MaxBinaryHeap\MaxBinaryHeap\MaxBinaryHeap.cpp(105,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\MaxBinaryHeap\MaxBinaryHeap\MaxBinaryHeap.cpp(83): warning C4715: 'MaxHeap::top': not all control paths return a value
+  MaxBinaryHeap.vcxproj -> C:\Users\sa'ad\Desktop\MaxBinaryHeap\Debug\MaxBinaryHeap.exe
