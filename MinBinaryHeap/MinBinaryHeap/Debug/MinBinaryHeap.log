@@ -1,0 +1,5 @@
+﻿  MinBinaryHeap.cpp
+C:\Users\sa'ad\Desktop\MinBinaryHeap\MinBinaryHeap\MinBinaryHeap.cpp(27,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sa'ad\Desktop\MinBinaryHeap\MinBinaryHeap\MinBinaryHeap.cpp(201,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\MinBinaryHeap\MinBinaryHeap\MinBinaryHeap.cpp(108): warning C4715: 'MinHeap::top': not all control paths return a value
+  MinBinaryHeap.vcxproj -> C:\Users\sa'ad\Desktop\MinBinaryHeap\Debug\MinBinaryHeap.exe
