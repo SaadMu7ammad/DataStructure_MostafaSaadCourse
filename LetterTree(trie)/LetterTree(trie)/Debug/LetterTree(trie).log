@@ -1,0 +1,12 @@
+﻿  LetterTree(trie).cpp
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(29,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(57,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(74,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(86,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(109,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(143,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(182,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(262,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(271,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\LetterTree(trie)\LetterTree(trie)\LetterTree(trie).cpp(203): warning C4715: 'trieMapOS::subpath_exist': not all control paths return a value
+  LetterTree(trie).vcxproj -> C:\Users\sa'ad\Desktop\LetterTree(trie)\Debug\LetterTree(trie).exe
