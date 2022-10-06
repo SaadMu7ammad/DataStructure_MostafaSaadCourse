@@ -1,0 +1,4 @@
+﻿  HashTable_CHAINING.cpp
+C:\Users\sa'ad\Desktop\HashTable_CHAINING\HashTable_CHAINING\HashTable_CHAINING.cpp(29,9): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Users\sa'ad\Desktop\HashTable_CHAINING\HashTable_CHAINING\HashTable_CHAINING.cpp(39,9): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  HashTable_CHAINING.vcxproj -> C:\Users\sa'ad\Desktop\HashTable_CHAINING\Debug\HashTable_CHAINING.exe
