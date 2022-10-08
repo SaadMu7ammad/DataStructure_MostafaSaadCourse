@@ -1,0 +1,13 @@
+﻿  HashTable_PROBING.cpp
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(13,9): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(30,9): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(40,9): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(137,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(139,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(150,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(152,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(159,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(161,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(173,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\sa'ad\Desktop\HashTable_PROBING\HashTable_PROBING\HashTable_PROBING.cpp(175,21): warning C4018: '<': signed/unsigned mismatch
+  HashTable_PROBING.vcxproj -> C:\Users\sa'ad\Desktop\HashTable_PROBING\Debug\HashTable_PROBING.exe
