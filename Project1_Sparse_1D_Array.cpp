@@ -85,42 +85,39 @@ public:
 		}
 		debug_verify_data_integrity();
 	}
-	void insert_sorted(int data,int indx) {
-		Node* node = new Node(data,indx);
-		node->indx = indx;
-		if (head == nullptr) {
-			++length;
-			head = tail = node;
-		}
+	void insert_sorted(int data, int indx) {
+		if (head == nullptr)insert_front(data,indx);
+
 		else if (head == tail) {
-			//if (head->data > data) {
-				if (head->indx > indx) {
+			if (head->data >= indx) {
 				insert_front(data,indx);
 			}
 			else {
-				insert_back(data, indx);
+				insert_back(data,indx);
 			}
-		}
-		//else if (tail->data <= data) {
-		else if (tail->indx <= indx) {
-			insert_back(data, indx);
+
 		}
 		else {
-			for (Node* i = head; i; i = i->next){
-				//if (i->data >= data) {
-					if (i->indx >= indx) {
-					//the prev and next linking
-					i->prev->next = node;
-					node->prev = i->prev;
-					node->next = i;
-					i->prev = node;
+			Node* node = new Node(data,indx);//create a node
+			Node* prev = head;//create a node
+			for (Node* cur = head->next; cur != nullptr; cur = cur->next) {
+				if (head->data >= indx) {
+					insert_front(data,indx);
+					return;
+				}
+				if (cur->data >= indx) {
+					prev->next = node;
+					node->next = cur;
 					++length;
-					debug_verify_data_integrity();
-					break;
-				    }
+					return;
+				}
+				// if(prev->next!=nullptr)
+				prev = prev->next;
 			}
+			insert_back(data,indx);
 		}
-		
+		debug_verify_data_integrity();
+
 	}
 	void pop_front() {
 		if (head == nullptr) {
