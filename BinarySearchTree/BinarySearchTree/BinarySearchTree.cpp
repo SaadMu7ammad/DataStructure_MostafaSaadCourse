@@ -96,14 +96,7 @@ public:
 		}
 		return false;
 	}
-	 /*          5
-	 *    4              6
-	 *               3        7
-	 *
-	 *   Although 6 is a valid BST, 5 > 3, which is wrong
-	 *   Idea: we need to make sure this value is proper with the parents too not just the child?
-	 *   We can maintain the current [mn, mx] valid range per node during recursion*/
-	 
+	
 	bool is_bst0(int mini=INT_MIN,int maxi=INT_MAX) {
 		bool status = mini < data && data < maxi;
 
@@ -127,6 +120,24 @@ public:
 		}
 		return true;
 	}
+	//bool is_bst_Bug() {//buggy code
+	//	int leftres = !left || data > left->data && left->is_bst();//if no left we done  or the data>the left subtree of it
+	//	if (leftres == 0)return false;
+	//	int rightres = !right || data < right->data && right->is_bst();
+	//	if (rightres == 0)return false;
+	//	return true;
+	//	/*Imagine the following tree
+	//		* 5
+	//		* 4              6
+	//		* 3        7
+	//		*
+	//		*
+	//		*Although 6 is a valid BST, 5 > 3, which is wrong
+	//		*
+	//		* Idea: we need to make sure this value is proper with the parents too not just the child ?
+	//		*We can maintain the current[mn, mx] valid range per node during recursion*/
+	//}
+	
 	//bool is_bst2() {
 	//	if (left==nullptr && right==nullptr)return true;
 
@@ -146,7 +157,7 @@ public:
 	//	}
 	//	//	return false;
 	//}
-	
+	//-------------------------------------------------------------------------------------
 	//int kth_smallest_number(int k,int c = 1) {
 	//	if (k == 0)
 	//		return -1234;
