@@ -96,16 +96,15 @@ public:
 		}
 		return false;
 	}
-	
-	bool is_bst0(int mini=INT_MIN,int maxi=INT_MAX) {
-		bool status = mini < data && data < maxi;
+		bool is_bst0(int mini = INT_MIN, int maxi = INT_MAX) {
+		bool status = mini < data&& data < maxi;//check that value of data is in the range or not
 
 		if (status == 0)return false;
 
-		bool left_bst = left == nullptr || left->is_bst0(mini,data);
+		bool left_bst = left == nullptr || left->is_bst0(mini, data);//move to left so the min not changed and the(max) right is at less than data
 		if (left_bst == false)return false;
 
-		bool right_bst = right == nullptr || right->is_bst0(data ,maxi);
+		bool right_bst = right == nullptr || right->is_bst0(data, maxi);//make boundaries between data & max for the right subtree
 		//if (right_bst == false)return false;
 		return right_bst;
 
