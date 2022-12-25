@@ -176,7 +176,8 @@ public:
 	//	
 	//	return-1234;
 	//}
-	int kth_smallest(int& k) {
+	int kth_smallest(int& k) { //return the arr[k-1]element inorder 
+
 		if (k == 0)
 			return -1234;
 
@@ -195,7 +196,7 @@ public:
 
 		return -1234;
 	}
-	int lca(int a, int b) {
+	int lca(int a, int b) {//is the shared  ancestor for both a and b 
 
 		if (a > data && b > data) {
 			return right->lca(a, b);
