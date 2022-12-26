@@ -356,7 +356,8 @@ public:
 		// Deleting it is RTE
 		// This is another complication we pay for our coding style
 		// to use only a single class instead of class + struct like linkedlist
-		data = child->data;
+		
+		data = child->data;//put in this ptr the child data,left,right then del the child coz now is duplicated
 		left = child->left;
 		right = child->right;
 		delete child;
